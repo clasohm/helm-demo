@@ -1,0 +1,10 @@
+{{- range .Values.namespaces }}
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: {{ .name }}
+  annotations:
+    openshift.io/description: {{ .description }}
+    openshift.io/display-name: {{ .displayName }}
+{{- end }}

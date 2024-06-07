@@ -1,0 +1,7 @@
+namespaces:
+  - name: helm-demo1
+    displayName: Helm Demo1
+    description: Helm Demo1 namespace
+  - name: helm-demo2
+    displayName: Helm Demo2
+    description: Helm Demo2 namespace
